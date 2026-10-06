@@ -1,0 +1,28 @@
+{
+  "name": "plastic-surgeon-linden",
+  "private": true,
+  "version": "3.0.0",
+  "description": "Plastic Surgeon v3 (The Sitting / Linden) factory package for npx @framer/agent.",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "check": "node scripts/check-package.mjs",
+    "copy:md": "node scripts/build-copy-md.mjs",
+    "render": "node scripts/render-dsl.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "verify": "npm run check && npm run typecheck && npm test"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "framer-motion": "^11.18.2",
+    "jsdom": "^25.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}
