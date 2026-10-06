@@ -1,0 +1,255 @@
+{
+  "$rules": "Key names set the copy type. See brand/voice.md and scripts/lib/rules.mjs. Headings end with a period on every page. Sentences and descriptive text end with a period. List items and controls have no period. No emojis. No em dashes. Curly quotes and apostrophes only.",
+  "brand": {
+    "wordmark": "linden",
+    "name": "Linden",
+    "tagline": "A small surgical practice that starts every plan with a private sitting.",
+    "address": "Cedar & 9th, Riverton",
+    "email": "hello@linden.example",
+    "phone": "+1 (555) 014-8800",
+    "phoneHref": "tel:+15550148800",
+    "emailHref": "mailto:hello@linden.example",
+    "surgeon": {
+      "name": "Dr. Leila Osman",
+      "description": "Board-certified plastic surgeon and founder of Linden."
+    }
+  },
+  "seo": {
+    "seoTitle": "Plastic Surgeon | Free Plastic Surgeon Website Template",
+    "seoDescription": "A Framer template for independent plastic surgery clinics, with private consult booking, plain procedure pricing and a week-by-week recovery contact sheet.",
+    "pageTitlePattern": "<Page> | Plastic Surgeon Framer Template"
+  },
+  "global": {
+    "nav": ["Procedures", "Results", "Surgeon", "Pricing", "Guides"],
+    "navHrefs": ["/procedures", "/results", "/surgeon", "/pricing", "/guides"],
+    "cta": "Private consult",
+    "ctaHref": "/book",
+    "menu": {
+      "button": "Menu",
+      "buttonClose": "Close",
+      "note": "Consults are camera-off by default."
+    },
+    "consultStrip": {
+      "note": "Consults most weekday mornings, camera off.",
+      "cta": "Private consult"
+    },
+    "footer": {
+      "wordmark": "linden",
+      "addressLabel": "Visit",
+      "hoursLabel": "Hours",
+      "contactLabel": "Contact",
+      "hours": ["Mon–Thu 8:00–18:00", "Fri 8:00–14:00", "Sat–Sun Closed"],
+      "nav": ["Procedures", "Results", "Surgeon", "Pricing", "Guides", "Book", "Imprint", "Styleguide"],
+      "navHrefs": ["/procedures", "/results", "/surgeon", "/pricing", "/guides", "/book", "/imprint", "/styleguide"],
+      "note": "© 2026 Linden. A demo practice for the Plastic Surgeon Framer template."
+    }
+  },
+  "home": {
+    "hero": {
+      "h1": "A private sitting. A clear plan.",
+      "lead": "Every plan at Linden starts with an unhurried consult and a documented sitting, so you know what changes, what it costs and how recovery really goes.",
+      "cta": "Book a private consult",
+      "ctaSecondary": "See recovery weeks",
+      "ctaSecondaryHref": "#recovery",
+      "proof": "Camera off by default · Board-certified",
+      "alt": "A patient seated on a stool in a daylit photo studio before a consult."
+    },
+    "contactSheet": {
+      "anchor": "recovery",
+      "h2": "Recovery, week by week.",
+      "intro": "Every case is photographed in the same chair, light and angle at weeks 0, 1, 6 and 12.",
+      "link": "See all results",
+      "linkHref": "/results"
+    },
+    "procedures": {
+      "h2": "Procedures, plainly priced.",
+      "intro": "Each page lists who it suits, the starting price, the downtime and what we will not do.",
+      "chips": ["All", "Eyes", "Nose", "Jaw", "Breast", "Body"],
+      "chipHrefs": ["/procedures", "/procedures#eyes", "/procedures#nose", "/procedures#jaw", "/procedures#breast", "/procedures#body"],
+      "cardLink": "Read the plan",
+      "downtimeLabel": "Downtime"
+    },
+    "surgeon": {
+      "h2": "A note from Dr. Osman.",
+      "paragraphs": [
+        "I keep my list short on purpose. Most weeks I see fewer than a dozen new patients, and every one of them gets a full hour with me, not a coordinator.",
+        "Some consults end with a plan. Some end with me suggesting you wait. Both are good outcomes, and you will never be charged for being told no."
+      ],
+      "name": "Dr. Leila Osman",
+      "chips": ["Board-certified plastic surgeon", "15 years in practice", "Facial surgery fellowship", "Operates at Riverton General"],
+      "link": "Meet Dr. Osman",
+      "linkHref": "/surgeon",
+      "alt": "Dr. Leila Osman in a white coat, photographed by a window."
+    },
+    "pricing": {
+      "h2": "Starting prices, before the exam.",
+      "facts": [
+        { "label": "Consult", "price": "$250", "description": "Credited to your surgery if you go ahead." },
+        { "label": "Face from", "price": "$4,800", "description": "Eyelids, nose, chin and jaw." },
+        { "label": "Body from", "price": "$5,200", "description": "Breast and body contouring." }
+      ],
+      "note": "Your exact plan is quoted in writing after the exam. It covers surgeon, anesthesia, facility and every follow-up visit.",
+      "link": "See full pricing",
+      "linkHref": "/pricing"
+    },
+    "notes": {
+      "h2": "Patient notes.",
+      "note": "Shared with permission. Names are shortened."
+    },
+    "faq": {
+      "h2": "Questions before the consult.",
+      "link": "Read the guides",
+      "linkHref": "/guides"
+    },
+    "consult": {
+      "h2": "Camera off. Door closed.",
+      "body": "Book a one-hour private consult with Dr. Osman, in person at Cedar & 9th or by phone.",
+      "cta": "Book a private consult",
+      "ctaSecondary": "+1 (555) 014-8800",
+      "ctaSecondaryHref": "tel:+15550148800",
+      "note": "We reply within one working day."
+    }
+  },
+  "pages": {
+    "procedures": {
+      "h1": "Procedures.",
+      "lead": "Six procedures we do often and do well, each with a starting price, honest downtime and who it suits.",
+      "seoTitle": "Procedures | Plastic Surgeon Framer Template"
+    },
+    "results": {
+      "h1": "Results.",
+      "lead": "Every case is photographed at weeks 0, 1, 6 and 12 in the same chair and light, and shown only with written consent.",
+      "empty": "No cases in this zone yet. Ask about it at your consult.",
+      "seoTitle": "Results | Plastic Surgeon Framer Template"
+    },
+    "surgeon": {
+      "h1": "Dr. Leila Osman.",
+      "lead": "Board-certified plastic surgeon. Fifteen years in practice, mostly faces, always one patient at a time.",
+      "seoTitle": "Surgeon | Plastic Surgeon Framer Template"
+    },
+    "pricing": {
+      "h1": "Pricing.",
+      "lead": "Starting prices for every procedure. Your exact plan is quoted in writing after the exam.",
+      "includes": {
+        "heading": "Every written plan includes.",
+        "items": ["Surgeon’s fee", "Anesthesia", "Facility and recovery room", "Week 1, 6 and 12 follow-ups", "Your contact sheet photos"]
+      },
+      "seoTitle": "Pricing | Plastic Surgeon Framer Template"
+    },
+    "guides": {
+      "h1": "Guides.",
+      "lead": "Plain answers for the weeks before and after surgery.",
+      "seoTitle": "Guides | Plastic Surgeon Framer Template"
+    },
+    "book": {
+      "h1": "Book a private consult.",
+      "lead": "One hour with Dr. Osman. Camera off by default, in person or by phone.",
+      "form": {
+        "nameLabel": "Name",
+        "contactLabel": "Email or phone",
+        "contactHelper": "We only use this to reply about your consult.",
+        "interestLabel": "Procedure",
+        "interestOptions": ["Not sure yet", "Eyes", "Nose", "Jaw", "Breast", "Body"],
+        "modeLabel": "Consult type",
+        "modeOptions": ["In person", "Phone", "Video, camera off"],
+        "messageLabel": "Anything we should know",
+        "messageHelper": "Optional. Please do not include medical records.",
+        "consentLabel": "I agree to be contacted about my consult",
+        "submit": "Request consult",
+        "submitting": "Sending…",
+        "success": "Thank you. We will reply within one working day from hello@linden.example.",
+        "error": "Please add an email or phone number so we can reply."
+      },
+      "seoTitle": "Book | Plastic Surgeon Framer Template"
+    },
+    "notFound": {
+      "h1": "This page is out of frame.",
+      "lead": "The link may be old, or the page has moved. Most people head to one of these next.",
+      "links": ["Procedures", "Results", "Book a private consult"],
+      "linkHrefs": ["/procedures", "/results", "/book"],
+      "seoTitle": "Page not found | Plastic Surgeon Framer Template"
+    },
+    "imprint": {
+      "h1": "Imprint.",
+      "lead": "Linden is a fictional practice created to demonstrate this template. Replace every detail on this page with your clinic’s legal information.",
+      "seoTitle": "Imprint | Plastic Surgeon Framer Template"
+    },
+    "styleguide": {
+      "h1": "Styleguide.",
+      "lead": "Colours, type and components used across the template.",
+      "seoTitle": "Styleguide | Plastic Surgeon Framer Template"
+    }
+  },
+  "cms": {
+    "cases": [
+      {
+        "slug": "upper-eyelid-lift-52",
+        "name": "Upper eyelid lift",
+        "zone": "Eyes",
+        "featured": true,
+        "meta": "Patient, 52. Day surgery with local anesthetic and light sedation.",
+        "frames": [
+          { "week": "Week 0", "caption": "The sitting.", "detail": "Marked, measured and photographed before surgery. Every later frame is compared to this one." },
+          { "week": "Week 1", "caption": "Swelling and stitches.", "detail": "Bruising peaks around day three and stitches come out on day six. Most people work from home this week." },
+          { "week": "Week 6", "caption": "Back to routine.", "detail": "Swelling is mostly gone and the scar sits in the natural crease. Light makeup and the gym are fine again." },
+          { "week": "Week 12", "caption": "Settled.", "detail": "The final shape is visible. Scars keep fading for up to a year, and we photograph you again at month twelve." }
+        ],
+        "note": "Shown with patient consent. Individual results vary."
+      },
+      {
+        "slug": "rhinoplasty-34",
+        "name": "Rhinoplasty",
+        "zone": "Nose",
+        "featured": false,
+        "meta": "Patient, 34. General anesthetic, one night’s stay.",
+        "frames": [
+          { "week": "Week 0", "caption": "The sitting.", "detail": "Profile and front views, plus the breathing test we repeat at week 12." },
+          { "week": "Week 1", "caption": "Splint off.", "detail": "The splint comes off on day seven. The nose looks wider than it will, which is normal." },
+          { "week": "Week 6", "caption": "Most swelling gone.", "detail": "Glasses can rest on the nose again. The tip is still firm and a little full." },
+          { "week": "Week 12", "caption": "Nearly final.", "detail": "Breathing is retested. The tip keeps refining slowly for about a year." }
+        ],
+        "note": "Shown with patient consent. Individual results vary."
+      },
+      {
+        "slug": "abdominoplasty-41",
+        "name": "Abdominoplasty",
+        "zone": "Body",
+        "featured": false,
+        "meta": "Patient, 41. General anesthetic, one night’s stay.",
+        "frames": [
+          { "week": "Week 0", "caption": "The sitting.", "detail": "Standing photos in the same pose, with the planned scar line agreed and marked." },
+          { "week": "Week 1", "caption": "Walking, slightly bent.", "detail": "Drains come out in the first week. A compression garment stays on day and night." },
+          { "week": "Week 6", "caption": "Standing tall.", "detail": "Desk work is fine and the garment comes off. No lifting over 10 lb yet." },
+          { "week": "Week 12", "caption": "Back to everything.", "detail": "Exercise is unrestricted. The scar is pink and will flatten over the next year." }
+        ],
+        "note": "Shown with patient consent. Individual results vary."
+      }
+    ],
+    "procedures": [
+      { "slug": "upper-eyelid-lift", "name": "Upper eyelid lift", "zone": "Eyes", "price": "From $4,800", "downtime": "7–10 days", "summary": "Removes heavy upper-lid skin so the eyes look rested, not changed.", "suits": "People whose upper lids feel heavy or crowd their lashes." },
+      { "slug": "rhinoplasty", "name": "Rhinoplasty", "zone": "Nose", "price": "From $8,900", "downtime": "2 weeks", "summary": "Refines the shape of the nose and can improve breathing in the same operation.", "suits": "Adults whose nose has finished growing and who want a refinement, not a new face." },
+      { "slug": "chin-and-jawline", "name": "Chin and jawline contouring", "zone": "Jaw", "price": "From $6,400", "downtime": "10–14 days", "summary": "Balances a soft chin or jawline with an implant or precise bone work.", "suits": "People whose profile feels unbalanced from the side." },
+      { "slug": "breast-augmentation", "name": "Breast augmentation", "zone": "Breast", "price": "From $7,900", "downtime": "1–2 weeks", "summary": "Adds volume with implants sized to your frame at the sitting.", "suits": "People who want fuller breasts and are ready for implant check-ins over the years." },
+      { "slug": "liposuction", "name": "Liposuction", "zone": "Body", "price": "From $5,200", "downtime": "1–2 weeks", "summary": "Removes stubborn fat from one or two areas that diet and exercise have not changed.", "suits": "People near their goal weight with good skin elasticity." },
+      { "slug": "abdominoplasty", "name": "Abdominoplasty", "zone": "Body", "price": "From $9,800", "downtime": "3–4 weeks", "summary": "Removes loose skin and repairs separated muscles after pregnancy or weight loss.", "suits": "People who are done with pregnancies and stable in weight." }
+    ],
+    "notes": [
+      { "quote": "“I came in expecting a sales pitch. I left with a drawing of my eyelids, a written price and a week to think.”", "person": "Maya R.", "zone": "Eyes", "weeks": "Back at work in week 2" },
+      { "quote": "“Dr. Osman talked me out of a second procedure. The one I had was enough.”", "person": "Daniel K.", "zone": "Nose", "weeks": "Back at work in week 3" },
+      { "quote": "“The week 1 photo was hard to look at. Seeing week 6 next to it made sense of everything.”", "person": "Priya S.", "zone": "Body", "weeks": "Back at work in week 4" }
+    ],
+    "faq": [
+      { "question": "Is the consult really camera-off?", "answer": "Yes. Video consults are audio-only unless you turn your camera on, and in-person consults happen in a closed room with no recording.", "showOnHome": true },
+      { "question": "Who sees my photos?", "answer": "Only Dr. Osman and your care nurse. Photos live in your medical record, never on personal phones, and appear on this site only with your written consent.", "showOnHome": true },
+      { "question": "How long is recovery, honestly?", "answer": "It depends on the procedure. Every procedure page lists real downtime ranges, and your written plan breaks recovery down week by week.", "showOnHome": true },
+      { "question": "What does the consult cost?", "answer": "The consult is $250 and is credited to your surgery if you go ahead within six months.", "showOnHome": true },
+      { "question": "Can I bring someone with me?", "answer": "Yes. Many patients bring a partner or friend. Tell us when you book and we will plan a longer slot.", "showOnHome": true },
+      { "question": "Do you offer financing?", "answer": "Yes, through two medical lenders. We share options after your written quote, never before the exam.", "showOnHome": false }
+    ],
+    "guides": [
+      { "slug": "what-a-sitting-includes", "title": "What a documented sitting includes.", "summary": "The lights, angles and notes we take before surgery, and why they matter at week 12." },
+      { "slug": "time-off-for-eyelid-surgery", "title": "Planning time off for eyelid surgery.", "summary": "A day-by-day look at the first two weeks, including when screens and makeup are fine." },
+      { "slug": "questions-for-any-surgeon", "title": "Questions to ask any surgeon.", "summary": "Seven questions that separate a careful practice from a busy one, wherever you book." }
+    ]
+  }
+}

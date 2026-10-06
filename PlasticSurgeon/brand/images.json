@@ -1,0 +1,29 @@
+{
+  "$rules": "Cool daylight only: north-window or softbox light, grey or white backdrops, no warm spa tones, no gold hour, no clinical blue gels. No before/after composites, no marked-up faces, no operating theatres. Alt text is descriptive text and ends with a period. Scripts read this file in scripts/exec/30_images.js.",
+  "source": "unsplash",
+  "slots": {
+    "hero": {
+      "query": "portrait seated woman grey studio soft window light",
+      "orientation": "portrait",
+      "alt": "A patient seated on a stool in a daylit photo studio before a consult.",
+      "autoPick": true
+    },
+    "surgeon": {
+      "query": "woman doctor portrait window light white coat calm",
+      "orientation": "portrait",
+      "alt": "Dr. Leila Osman in a white coat, photographed by a window.",
+      "autoPick": true
+    },
+    "procedure.upper-eyelid-lift": { "query": "close portrait eyes natural light grey background", "orientation": "landscape", "alt": "Close portrait of a woman’s eyes in soft daylight.", "autoPick": true },
+    "procedure.rhinoplasty": { "query": "profile portrait man grey studio light", "orientation": "landscape", "alt": "A man in profile against a grey studio backdrop.", "autoPick": true },
+    "procedure.chin-and-jawline": { "query": "jawline profile portrait soft light", "orientation": "landscape", "alt": "A side profile showing the jaw and chin in soft light.", "autoPick": true },
+    "procedure.breast-augmentation": { "query": "woman shoulders portrait linen white studio", "orientation": "landscape", "alt": "A woman’s shoulders and collarbones in a white studio.", "autoPick": true },
+    "procedure.liposuction": { "query": "woman torso silhouette white backdrop daylight", "orientation": "landscape", "alt": "A torso in silhouette against a white backdrop.", "autoPick": true },
+    "procedure.abdominoplasty": { "query": "woman standing white studio daylight minimal", "orientation": "landscape", "alt": "A woman standing in a white studio in morning light.", "autoPick": true },
+    "case.upper-eyelid-lift-52.week0": { "query": "mature woman portrait series grey backdrop", "orientation": "portrait", "alt": "Week 0, front view before surgery.", "autoPick": false },
+    "case.upper-eyelid-lift-52.week1": { "query": "mature woman portrait series grey backdrop", "orientation": "portrait", "alt": "Week 1, front view with mild swelling.", "autoPick": false },
+    "case.upper-eyelid-lift-52.week6": { "query": "mature woman portrait series grey backdrop", "orientation": "portrait", "alt": "Week 6, front view with swelling mostly gone.", "autoPick": false },
+    "case.upper-eyelid-lift-52.week12": { "query": "mature woman portrait series grey backdrop", "orientation": "portrait", "alt": "Week 12, front view with the result settled.", "autoPick": false }
+  },
+  "caseFramesRule": "The four case frames must be the same sitter, same backdrop and same light, picked by hand from one photographer series. Put the chosen URLs in scripts/ids.json → imagePicks. The script never auto-picks case frames, because four different strangers would make the signature dishonest."
+}
