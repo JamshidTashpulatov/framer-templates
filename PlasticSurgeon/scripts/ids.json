@@ -1,0 +1,27 @@
+{
+  "projectId": "gRmO0VwmSky5joyYsfug",
+  "projectTitle": "Plastic Surgeon",
+  "direction": "v3 The Sitting / Linden",
+  "updatedAt": null,
+  "pages": {},
+  "homeLegacySections": [],
+  "styles": {
+    "color": {},
+    "text": {},
+    "legacyColorMap": {},
+    "legacyTextMap": {}
+  },
+  "components": {
+    "button": null,
+    "header": null,
+    "footer": null,
+    "faqItem": null,
+    "contactSheet": null,
+    "zoneMap": null
+  },
+  "collections": {},
+  "images": {},
+  "imagePicks": {},
+  "verify": { "passed": false, "at": null, "problems": [] },
+  "preview": { "url": null, "at": null }
+}
